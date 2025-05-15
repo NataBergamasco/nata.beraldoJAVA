@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+}
+
+form {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    display: flexbox;
+    min-width: 300px;
+    min-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+fieldset {
+    background: #ffbaee;
+    width: 150px;
+    margin: 30px;
+    border-radius: 10%;
+    border: none;
+}
+
+
+
+
+.btn1 {  padding: 5px 20px;
+    border-radius: 10%;
+    background-color: rgb(151, 151, 151);
+    color: #000000;
+}
+.btn1:hover {
+    background-color: rgb(158, 255, 255);
+    transition: 0.1s;
+    padding: 5px 30px;
+}
+
+.claro {
+    background: #fff;
+    color: #000;
+}
+.escuro {
+    background: #000;
+    color: #fff;
+}
